@@ -1,0 +1,56 @@
+.logo{
+    width: 200px;
+    height: auto; 
+    position: absolute;  /* allows navigation links to align with logo */
+    z-index: 1100;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.drop {
+    z-index: 1150;
+}
+.card {
+    border: 2px solid black;
+}
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.attractions {
+  border-radius: 30px;
+}
+
+.attractionspic {
+  border-top-right-radius: 30px;
+  border-top-left-radius:  30px;
+}
+
+.carouselthing {
+  object-fit: cover;
+  height: 500px;
+}
+
+.carouselthing2 {
+  object-fit: fill;
+  height: 500px;
+}
+
+footer {
+    background: #061D25;
+    padding: 10px 0;
+    text-align: center;
+  }
+  footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  footer a:hover {
+    color: white;
+  }
